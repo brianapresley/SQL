@@ -7,7 +7,7 @@ join Employee
 Where Description = 'President' or Description = 'VP'
 -- Add Union to join the results set
 Union
--- To display everything else Change Yes to no and added Not to Where clause
+-- To display everything else Change Yes to no and added Not to Where clause9696
 Select firstname, lastname, description, salary, 'No' as 'SR. EXEC'
 from Job
 join Employee
